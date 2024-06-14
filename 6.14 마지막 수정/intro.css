@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.explain{
+    border: 1px dotted;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+h1 {
+    text-align: center;
+    color: #3e81e7;
+    margin-bottom: 20px;
+}
+
+h2, h3, h4, h5, p {
+    margin: 10px 0;
+}
+
+.section-title {
+    margin-top: 40px;
+    color: black;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.ideology, .education-purpose, .motto {
+    background-color: #f2f9fc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.ideology p, .education-purpose p, .motto p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3e81e7;
+    text-align: center;
+}
+
+.charter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+}
+
+.charter-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.charter-header h2 {
+    font-size: 24px;
+    color: #3e81e7;
+}
+
+.charter-header h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.charter-box {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #b8b8c2;
+}
+
+.charter-box:last-child {
+    border-bottom: none;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3e81e7;
+    width: 30px;
+    text-align: center;
+}
+
+.centerline {
+    width: 2px;
+    height: 100%;
+    background-color: #3e81e7;
+    margin: 0 15px;
+}
+
+.charter-box h5 {
+    font-size: 18px;
+    color: #3e81e7;
+}
+
+.charter-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+.text-left .number, .text-left .centerline {
+    order: 1;
+}
+
+.text-left h5, .text-left p {
+    order: 2;
+}
+
+.text-right .number, .text-right .centerline {
+    order: 2;
+}
+
+.text-right h5, .text-right p {
+    order: 1;
+}
+
+.core-values, .skills {
+    background-color: #f2f9fc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.bullet-list {
+    border: 1px dotted;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.values-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.value {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3e81e7;
+    padding: 10px;
+}
+
+.competencies-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.competency-list {
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+.competency-list li {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.skills-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-header h2 {
+    font-size: 24px;
+    color: #3e81e7;
+}
+
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    text-align: center;
+}
+
+.skill-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3e81e7;
+}
+
+.skill-title {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.skill h4 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.skill p {
+    font-size: 14px;
+    color: #666;
+}

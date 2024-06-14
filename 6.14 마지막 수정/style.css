@@ -1,0 +1,554 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  padding: 30px; 
+}
+
+.tab_type1 ul {
+  display: flex;
+  height: 60px;
+  border-bottom: 3px solid #505050;
+  margin-left: 180px; /* 네부게이션 제목과 메뉴 간의 간격 조정 */
+}
+.tab_type1 ul li {
+  flex: 1;
+}
+  .tab_type1 ul li:first-child a {
+    border-left: 3px solid black;
+}
+
+.tab_type1 ul li a {
+    display: block;
+    height: 59px;
+    border: 3px solid white;
+    border-left: none;
+    border-bottom: none;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    line-height: 59px;
+    text-decoration: none;
+}
+
+.tab_type1 ul li a.on {
+    position: relative;
+    height: 58px;
+    border-color: black;
+    border-top-width: 2px;
+    line-height: 57px;
+    border-bottom: 1px solid #fff;
+}
+
+.tab_type1 ul li a.on:before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: -2px;
+    width: 1px;
+    height: 100%;
+    background: #5da62b;
+    border-top: 2px solid #5da62b;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+#header h3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: #063573;
+  padding: 20px 70px;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+}
+
+#header nav.tab_type1 ul li {
+  display: inline-block;
+}
+h1 {
+font-size: 60px;
+font-weight: bold;
+font-family: 'Sunflower', sans-serif;
+margin: 20px;
+}
+h2 {
+font-size: 50px;
+font-family: 'Sunflower', sans-serif;
+}
+h3 {
+font-size: 40px;
+font-family: 'Sunflower', sans-serif;
+}
+.button_A11 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_A11 {
+font-size: 20px;
+}
+.button_A12 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_A12{
+font-size: 20px;
+}
+.button_A13{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_A13{
+font-size: 20px;
+}
+.button_A15{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_A15{
+font-size: 20px;
+} 
+.button_A21{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_A21{
+font-size: 20px;
+}  
+.button_A22{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_A22{
+font-size: 20px;
+} 
+.button_A23{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_A23{
+font-size: 20px;
+}          
+.button_B11 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_B11 {
+font-size: 20px;
+}
+.button_B12 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_B12 {
+font-size: 20px;
+}
+.button_B13 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_B13 {
+font-size: 20px;
+}    
+.button_B14 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_B14 {
+font-size: 20px;
+}    
+.button_B15 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_B15 {
+font-size: 20px;
+}    
+.button_B16 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_B16 {
+font-size: 20px;
+}    
+.button_C11 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C11 {
+font-size: 20px;
+}
+.button_C12 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C12{
+font-size: 20px;
+}
+.button_C13{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C13{
+font-size: 20px;
+}
+.button_C14{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C14{
+font-size: 20px;
+} 
+.button_C21{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C21{
+font-size: 20px;
+}  
+.button_C22{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C22{
+font-size: 20px;
+} 
+.button_C23{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C23{
+font-size: 20px;
+} 
+.button_C24{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C24{
+font-size: 20px;
+}  
+.button_C25{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C25{
+font-size: 20px;
+} 
+.button_C26{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C26{
+font-size: 20px;
+}
+.button_C27{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C27{
+font-size: 20px;
+} 
+.button_C28{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_C28{
+font-size: 20px;
+}            
+.button_D12 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_D12 {
+font-size: 20px;
+}
+.button_D13 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_D13{
+font-size: 20px;
+}
+.button_D14{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_D14{
+font-size: 20px;
+}
+.button_D21{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_D21{
+font-size: 20px;
+}  
+.button_D22{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_D22{
+font-size: 20px;
+} 
+.button_D23{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_D23{
+font-size: 20px;
+} 
+.button_D24{
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_D24{
+font-size: 20px;
+}            
+.button_E11 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_E11 {
+font-size: 20px;
+}
+.button_E12 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_E12 {
+font-size: 20px;
+}
+.button_E13 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_E13 {
+font-size: 20px;
+}    
+.button_E14 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_E14 {
+font-size: 20px;
+}    
+.button_E21 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_E21 {
+font-size: 20px;
+}    
+.button_E22 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_E22 {
+font-size: 20px;
+}    
+.button_E29 {
+font-size: 20px;
+font-family: 'Sunflower', sans-serif;
+background-color:rgb(211, 232, 239);
+border-color: darkgrey;
+}
+.dialog_E29 {
+font-size: 20px;
+}    
+dialog::backdrop {
+background-color: rgba(0, 0, 0, 0.2);
+}
+dialog {
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+border: 0px;
+text-align: center;
+border-radius: 20px;
+padding: 20px 50px 10px 50px
+}
+.font1 {
+font-family: 'Sunflower', sans-serif;
+font-size: 35px
+}
+.font2 {
+font-family: 'Sunflower', sans-serif;
+font-size: 25px;
+}
+.font_sun {
+font-family: 'Sunflower', sans-serif;
+}
+a {
+text-decoration-line: none;
+color:black;
+
+}
+.button {
+background-color:rgba(189, 219, 239, 0.502);
+border-width: 1px;
+
+}/*rgb(177, 212, 247) rgba(189, 219, 239, 0.502)*/
+.margin1 {
+margin-left: 500px;
+}
+.margin2 {
+margin-left: 500px;
+}
+.multi-accordion {
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: .5em .5em 0;
+overflow: hidden;
+background-color: rgb(252, 252, 252);
+line-height:1.5;
+}
+.multi-accordion summary {
+font-weight: bold;
+margin: -.5em -.5em 0;
+padding: .5em;
+cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-family: 'Noto Sans KR', sans-serif; /* 한글 폰트 추가 */
+}
+
+.result-container {
+  padding: 20px;
+  background-color: #f0f8ff; /* 배경색을 연한 파란색으로 설정 */
+  border-radius: 10px; /* 모서리를 둥글게 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+  max-width: 300px; /* 최대 너비 설정 */
+  margin-left: 20px; /* 왼쪽 여백 설정 */
+  border: 1px solid #dde1e6; /* 테두리 색 설정 */
+}
+
+.result-distance,
+.result-time {
+  margin: 10px 0; /* 위아래 간격 추가 */
+  font-size: 18px; /* 글자 크기 설정 */
+  line-height: 1.6; /* 줄 간격 설정 */
+  color: #333; /* 글자 색 설정 */
+}
+
+.result-distance strong,
+.result-time strong {
+  color: #007acc; /* 강조 부분 색 설정 */
+  font-weight: bold; /* 글자 두껍게 */
+}
+
+/* 둥근 테두리인 첫 번째 아이템 상단의 배경색이 삐져 나오는 것 처리 */
+.multi-accordion details:first-child summary{
+border-radius: 10px 10px 0 0;
+}
+/* 열림 아이템 */
+.multi-accordion details[open] summary {
+border-bottom: 1px solid #aaa;
+margin-bottom: .5em;
+background-color: aliceblue;
+letter-spacing: 0.1em;
+}
+/* 열린 아이템이 첫 번째 아이템이 아니면 디자인 요소 추가 */
+.multi-accordion details:not(:first-child)[open] summary {
+margin-top: .15em;
+border-top: 1px solid #aaa;
+
+}
+/* 열림 아이템 다음 아이템의 키워드 상단에 테두리선 추가 */
+.multi-accordion details[open] + details > summary {
+border-top: 1px solid #aaa;
+}
+#building-name{
+background-color: rgba(189, 219, 239, 0.502);
+}
+#building-inf{
+background-color:#e9e8e8
+}
+.building_font {
+font-size: 25px;
+font-family: 'Sunflower', sans-serif;
+}  
