@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <link rel="stylesheet" href="fstyle.css" />
+  <meta charset="UTF-8">
+  <title>네부게이션</title>
+  <link rel="icon" href="/파비콘.ico">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=Hz2FRQ7V1LaHuZxpL92Fn7UPuG3RndEq1ENh2wA6"></script>
+  <script src="fmain.js"></script>
+</head>
+  <body onload="initTmap();">
+
+  <header id="header">
+    <a href=""><h3 class="font_sun">네부게이션</h3></a>
+    <nav class = "tab_type1">
+      <ul>
+        <li font-weight:bold;><a href=""> </a></li>
+        <li font-weight:bold;><a href="">소개</a></li>
+        <li font-weight:bold;><a href="https://gyubhin.github.io/WebProgramming/">건물정보</a></li>
+        <li font-weight:bold;><a href="">학과</a></li>
+        <li font-weight:bold;><a href="">학사일정</a></li>
+      </ul>
+    </nav>
+</header>
+      <div id="map_wrap" class="map_wrap3">
+         <div id="map_div"></div>
+      </div>
+      <div class="map_act_btn_wrap clear_box"></div>
+      <p id="result"></p>
+</html>
