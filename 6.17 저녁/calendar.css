@@ -1,0 +1,167 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    .wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .wrapper .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .wrapper .nav .current-date {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .wrapper .nav button {
+      width: 38px;
+      height: 38px;
+      font-size: 30px;
+      color: #878787;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #3e81e7;
+      margin-bottom: 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    button {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      padding: 0;
+      cursor: pointer;
+    }
+  
+    .nav button {
+      background: none;
+      border: none;
+    }
+
+    .nav img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .current-date {
+      font-size: 20px;
+      color: black;
+
+    }.main-content {
+      display: flex;
+      width: 100%;
+    }
+    
+    .calendar {
+      width: 60%; /* 달력 너비 조정 */
+    }
+    
+    .calendar ul {
+      display: flex;
+      list-style: none;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    
+    .calendar .weeks li {
+      font-weight: 500;
+    }
+    
+    .calendar .days {
+      margin-bottom: 20px;
+    }
+    
+    .calendar ul li {
+      width: calc(100% / 7);
+      position: relative;
+    }
+    
+    .calendar .days li {
+      z-index: 1;
+      margin-top: 30px;
+      cursor: pointer;
+    }
+    
+    .days li.inactive {
+      color: #aaa;
+    }
+    
+    .days li.active {
+      color: black;
+    }
+    
+    .calendar .days li::before {
+      position: absolute;
+      content: '';
+      height: 40px;
+      width: 40px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      z-index: -1;
+    }
+    
+    .days li:hover::before {
+      background: #f2f2f2;
+    }
+    
+    .days li.active::before {
+      background: #f2f2f2;
+    }
+    
+    /* 일요일(0번째 요일)은 빨간색 */
+    .days li:nth-child(7n + 1) {
+      color: #ff0000;
+    }
+    
+    /* 토요일(6번째 요일)은 파란색 */
+    .days li:nth-child(7n + 6) {
+      color: #0000ff;
+    }
+    
+    .monthly-schedule {
+      width: 80%; /* 월간 일정 너비 조정 */
+      margin-left: 20px;
+    }
+    
+    .monthly-schedule h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    
+    .monthly-schedule table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .monthly-schedule th, .monthly-schedule td {
+      padding: 8px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    
+    .monthly-schedule th {
+      background-color: #f2f2f2;
+    }

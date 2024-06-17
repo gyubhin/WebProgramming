@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #3e81e7;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: 'Sunflower', sans-serif;
+}
+h2 {
+  font-family: 'Sunflower', sans-serif;
+}
+h3 {
+  font-size: 30px;
+  font-family: 'Sunflower', sans-serif;
+}
+.circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #66a3fe;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.allButton{
+  border-radius: 15px;
+  padding: 7px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: 'Sunflower', sans-serif;
+  background-color:#f2f9fc;
+  border-color: darkgrey;
+}
+
+.allDialog {
+  font-size: 20px;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+dialog {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border: 0px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px 50px 10px 50px
+}
+.font1 {
+  font-family: 'Sunflower', sans-serif;
+  font-size: 35px
+}
+.font2 {
+  font-family: 'Sunflower', sans-serif;
+  font-size: 25px;
+}
+.font_sun {
+  font-family: 'Sunflower', sans-serif;
+}
+a {
+  text-decoration-line: none;
+  color:black;
+  
+}
+.button {
+  background-color:rgba(189, 219, 239, 0.502);
+  border-width: 1px;
+  
+}/*rgb(177, 212, 247) rgba(189, 219, 239, 0.502)*/
+.margin1 {
+  margin-left: 500px;
+}
+.margin2 {
+  margin-left: 500px;
+}
+.multi-accordion {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: .5em .5em 0;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+    line-height:1.5;
+}
+.multi-accordion summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    cursor: pointer;
+}
+/* 둥근 테두리인 첫 번째 아이템 상단의 배경색이 삐져 나오는 것 처리 */
+.multi-accordion details:first-child summary{
+    border-radius: 10px 10px 0 0;
+}
+/* 열림 아이템 */
+.multi-accordion details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+    background-color: aliceblue;
+    letter-spacing: 0.1em;
+}
+/* 열린 아이템이 첫 번째 아이템이 아니면 디자인 요소 추가 */
+.multi-accordion details:not(:first-child)[open] summary {
+    margin-top: .15em;
+    border-top: 1px solid #aaa;
+
+}
+/* 열림 아이템 다음 아이템의 키워드 상단에 테두리선 추가 */
+.multi-accordion details[open] + details > summary {
+    border-top: 1px solid #aaa;
+}
+#building-name{
+  background-color: rgba(189, 219, 239, 0.502);
+}
+#building-inf{
+  background-color:#e9e8e8
+}
+.building_font {
+    font-size: 25px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.building-group {
+  border: 2px solid #758194;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

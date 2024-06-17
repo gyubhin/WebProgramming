@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>네부게이션</title>
+  <link rel="icon" href="/파비콘.ico">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=Hz2FRQ7V1LaHuZxpL92Fn7UPuG3RndEq1ENh2wA6"></script>
+  <script src="main.js"></script>
+</head>
+  <body onload="initTmap();">
+
+  <header id="header">
+    <img src="/로고.png" alt="Logo">
+    <a href=""><h3 class="font_sun">네부게이션</h3></a>
+    <nav class = "tab_type1">
+        <ul>
+          <li font-weight:bold;><a href="./intro.html">대학소개</a></li>
+          <li font-weight:bold;><a href="./bldg.html">건물정보</a></li>
+          <li font-weight:bold;><a href="./dept.html">학과소개</a></li>
+          <li font-weight:bold;><a href="./calendar.html">학사일정</a></li>
+        </ul>
+    </nav>
+</header>
+      <br><br>
+      <div id="map_wrap" class="map_wrap3">
+         <div id="map_div"></div>
+      </div>
+      <div class="map_act_btn_wrap clear_box"></div>
+      <div id="result" class="flex-container"></div>
+      <p id="result"></p>
+      <footer>
+        <p>&copy; Kim GyuBhin &nbsp;&nbsp; 컴퓨터공학과 202213060 김규빈&nbsp;&nbsp;&nbsp;TEL. 010-5285-0185</p>
+        <p>부경대학교 - 부산광역시 남구 용소로 45(48513)</p>
+      </footer>
+  </body>
+</html>
