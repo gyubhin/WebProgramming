@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학사일정</title>
+  <link rel="stylesheet" href="calendar.css">
+  <link rel="icon" href="/파비콘-일반.ico">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+</style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>학사 일정</h1><hr>
+    <header>
+      <div class="nav">
+        <button id="prevMonth" class="material-icons"><img src="/좌측화살표.png" alt="<"></button>
+        <p class="current-date">June 2024</p>
+        <button id="nextMonth" class="material-icons"><img src="/우측화살표.png" alt=">"></button>
+      </div>
+    </header>
+    <div class="main-content">
+      <div class="calendar">
+        <ul class="weeks">
+          <li>Sun</li>
+          <li>Mon</li>
+          <li>Tue</li>
+          <li>Wed</li>
+          <li>Thu</li>
+          <li>Fri</li>
+          <li>Sat</li>
+        </ul>
+        <ul class="days">
+          <li class="inactive">27</li>
+          <li class="inactive">28</li>
+          <li class="inactive">29</li>
+          <li class="inactive">30</li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li>10</li>
+          <li>11</li>
+          <li>12</li>
+          <li>13</li>
+          <li>14</li>
+          <li>15</li>
+          <li>16</li>
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li>20</li>
+          <li>21</li>
+          <li>22</li>
+          <li>23</li>
+          <li>24</li>
+          <li>25</li>
+          <li>26</li>
+          <li>27</li>
+          <li>28</li>
+          <li>29</li>
+          <li>30</li>
+          <li>31</li>
+        </ul>
+      </div>
+
+      
+      <div id="monthly-schedule" class="monthly-schedule"></div>
+    </div>
+  </div>
+
+  <script src="calendar.js"></script>
+</body>
+</html>

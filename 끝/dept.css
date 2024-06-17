@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #3e81e7;
+    margin-bottom: 20px;
+}
+
+.department-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.department-table th, .department-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.department-table th {
+    background-color: #f2f9fc;
+    color: #3e81e7;
+    font-weight: bold;
+}
+
+.department-table td {
+    font-size: 16px;
+}
+
+.department-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
